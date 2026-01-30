@@ -1,5 +1,5 @@
-# cool things will be here soon
-# for now
+# cool things will be here soon...
+# for now..
 #
 #
 #
