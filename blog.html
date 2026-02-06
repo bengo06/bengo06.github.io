@@ -1,43 +1,52 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
+    
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title>Ben Goeders</title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-      <meta name="CocoaVersion" content="2685.3">
-          <style type="text/css">
-              p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-          </style>
-          
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Goeders</title>
+    <img src="weblogo.png" alt="welcome to the bengoeders website">
 </head>
+
+<header>
+    <button onClick="toHome()">home</button> <button onClick="toAbout()">about</button> <button onClick="toBlog()">blog</button>
+</header>
+
 <body>
-    <h1>
-        <pre>
- _______ _______ _______ _______ _______ _______ _______ _______ _______ _______
-|\     /|\     /|\     /|\     /|\     /|\     /|\     /|\     /|\     /|\     /|
-| +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ |
-| |   | | |   | | |   | | |   | | |   | | |   | | |   | | |   | | |   | | |   | |
-| |b  | | |e  | | |n  | | |g  | | |o  | | |e  | | |d  | | |e  | | |r  | | |s  | |
-| +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ | +---+ |
-|/_____\|/_____\|/_____\|/_____\|/_____\|/_____\|/_____\|/_____\|/_____\|/_____\|
-        </pre>
-        <button id="blog1">
-            blog
-        </button>
-        
-        <script>
-            document.getElementById("blog1").onClick = function () {
-                window.location.href = "blog.html";
-            };
-        </script>
-    </h1>
-<br>
-this is my blog.
-<br>
-&copy; 2026 bengo prod. <br>
-
-
-
+    <br>
+    <span style="font-size: 16px;">
+        <b>
+            Entry 1
+        </b>
+    </span>
+    <br>
+    February 5th, 2026
+    <br>
+    
+    <br>
+    Isn't this something?
 </body>
+
+<div style="position: absolute;bottom: 5px;background-color: white;">
+    &copy; 2026 bengo prod. 
+</div>
+
+<script>
+    function toHome() {
+        window.location.href = 'index.html';
+    }
+</script>
+
+<script>
+    function toAbout() {
+        window.location.href = 'about.html';
+    }
+</script>
+
+<script>
+    function toBlog() {
+        window.location.href = 'blog.html';
+    }
+</script>
+
 </html>
