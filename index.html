@@ -9,12 +9,16 @@
 </head>
 
 <header>
-    <button onClick="toHome()">home</button> <button onClick="toAbout()">about</button> <button onClick="toBlog()">blog</button>
+    <button onClick="toHome()">home</button> <button onClick="toBlog()">blog</button> <button onClick="toAbout()">about</button> <button onClick="toContact()">contact</button>
 </header>
 
 <body>
     <br>
-    welcome to my website!
+    <span style="font-size: 16px;">
+        <b>
+            Welcome To My Website!
+        </b>
+    </span>
     <br>
     follow any of the links to learn more about me
 </body>
@@ -30,14 +34,20 @@
 </script>
 
 <script>
+    function toBlog() {
+        window.location.href = 'blog.html';
+    }
+</script>
+
+<script>
     function toAbout() {
         window.location.href = 'about.html';
     }
 </script>
 
 <script>
-    function toBlog() {
-        window.location.href = 'blog.html';
+    function toContact() {
+        window.location.href = 'contact.html';
     }
 </script>
 

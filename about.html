@@ -9,7 +9,7 @@
 </head>
 
 <header>
-    <button onClick="toHome()">home</button> <button onClick="toAbout()">about</button> <button onClick="toBlog()">blog</button>
+    <button onClick="toHome()">home</button> <button onClick="toBlog()">blog</button> <button onClick="toAbout()">about</button> <button onClick="toContact()">contact</button>
 </header>
 
 <body>
@@ -19,6 +19,19 @@
             About Me
         </b>
     </span>
+    <br>
+    ben goeders - 
+    <br>
+    is a freshman at Iowa State University. he is a pursuing a major in Computer Engineering. his interests lie in embedded systems, semiconductor design, UX design, and operating systems.
+    <br>
+    <br>
+    he also has experience with CAD tools such as fusion 360 and revit, and these skills show up in the projects he creates. currently, he is designing the physical components, electrical design, and code for a LED stage light.
+    <br>
+    <br>
+    outside of his studies, he is an avid music listener and player. he can often be found playing bass in his quartet or checking out a new album. 
+    <br>
+    <br>
+    ben has programming experience in python, java, c, and embedded c++ (arduino). 
 </body>
 
 <div style="position: absolute;bottom: 5px;background-color: white;">
@@ -32,14 +45,20 @@
 </script>
 
 <script>
+    function toBlog() {
+        window.location.href = 'blog.html';
+    }
+</script>
+
+<script>
     function toAbout() {
         window.location.href = 'about.html';
     }
 </script>
 
 <script>
-    function toBlog() {
-        window.location.href = 'blog.html';
+    function toContact() {
+        window.location.href = 'contact.html';
     }
 </script>
 
